@@ -1,0 +1,183 @@
+:root {
+  --primary-blue:#0277bd;
+  --primary: #c9151b;
+  --primary-navigation:#0288D1;
+  --primary-secondary: #f5515f;
+  --primary-medium-light: #f6d5d5;
+  --primary-light: #fff2f1;
+  --primary-dark: #1d2531;
+  --primary-dark-secondary: #333e4f;
+  --primary-dark-medium-gray: #5a6577;
+  --primary-dark-gray: #9ca9be;
+  --placeholder: #d0d3d6;
+  --seperator: #e6e8eb;
+  --background: #f5f6f7;
+  --white: #fff;
+      --blue: #007bff;
+      --indigo: #6610f2;
+      --purple: #6f42c1;
+      --pink: #e83e8c;
+      --red: #dc3545;
+      --orange: #fd7e14;
+      --yellow: #ffc107;
+      --green: #28a745;
+      --teal: #20c997;
+      --cyan: #17a2b8;
+      --white: #fff;
+      --gray: #6c757d;
+      --gray-dark: #343a40;
+      --primary: #007bff;
+      --secondary: #6c757d;
+      --success: #28a745;
+      --info: #17a2b8;
+      --warning: #ffc107;
+      --danger: #dc3545;
+      --light: #f8f9fa;
+      --dark: #343a40;
+      --breakpoint-xs: 0;
+      --breakpoint-sm: 576px;
+      --breakpoint-md: 768px;
+      --breakpoint-lg: 992px;
+      --breakpoint-xl: 1200px;
+      --space-4: 0.2rem;
+  --space-2: 0.4rem;
+  --space0_5: 0.5rem;
+  --space0_8: 0.6rem;
+  --space1: 0.8rem;
+  --space1_25: 1rem;
+  --space1_5: 1.2rem;
+  --space2: 1.6rem;
+  --space2_5: 2rem;
+  --space2_75: 2.2rem;
+  --space3: 2.4rem;
+  --space3_6: 2.6rem;
+  --space4: 3.2rem;
+  --space4_4: 3.4rem;
+  --space4_8: 3.8rem;
+  --space5: 4rem;
+  --space6: 4.8rem;
+  --space7: 5.6rem;
+  --space8: 6.4rem;
+  --space9: 7.2rem;
+  --space10: 8rem;
+  --space11: 8.8rem;
+  --space12: 9.6rem;
+  --behind: -1;
+  --default: 0;
+  --image-overlay: 1;
+  --z-index-3: 3;
+  --header: 5;
+  --header-menu-overlay: 6;
+  --popup: 8;
+  --edition: 10;
+  --loader: 100;
+  --search-filter-popup: 101;
+  --header-overlay: 1000;
+  --over-the-top: 9999;
+  --top-overlay: 10000;
+  --primary-color: #000;
+  --rgbBlack: 0,0,0;
+  --rgbWhite: 255,255,255;
+  --greyish-brown: #404040;
+  --white: #fff;
+  --black: #121212;
+  --menu-hover: rgba(18,18,18,0.7019607843137254);
+  --multisite-hover: hsla(0,0%,100%,0.4);
+  --semi-black: #222;
+  --orange: #ffb300;
+  --very-light-pink: #e2e2e2;
+  --gray: #929292;
+  --mariner: #2f81cd;
+  --wild-sand: #f4f4f4;
+      --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+    
+
+
+
+
+.news-sub-part-1{
+  margin: 2rem 0;
+}
+.news-sub-part-1-image{
+  width: 54rem;
+  height:32rem;
+  margin-bottom: 1rem;
+  
+}
+.international{
+  margin-top: 0 i !important;
+}
+
+.news-sub-part-1-image img{
+  width: 100%;
+  height:100%;
+  
+}
+
+.news-sub-part-3 .product-3-image{
+  width: 25rem;
+  height:8rem;
+  margin-bottom: 1rem;
+  
+}
+
+.news-sub-part-3 .product-3-image img{
+  width: 100%;
+  height:100%;
+  
+}
+.news-sub-part-1-right-side{
+  margin-bottom: 1rem;
+}
+.news-sub-part-2 img{
+  width: 25rem;
+  height: 18rem;
+}
+.news-sub-part-2 h3{
+  font-size: 1.2rem;
+}
+
+.news-sub-part-3 .product-3-title{
+  margin-right: .5rem;
+}
+.news-sub-part-3 .product-3-title h2{
+  font-size: 1.2rem;
+}
+.part-item{
+  display: flex;
+
+}
+.active{
+  color:#00ff00;
+}
+.part-item ul {
+  display: inline-block;
+  
+}
+.part-item ul li{
+  float:left;
+  padding:0 .5rem;
+  font-size: 1.2rem;
+  color: var(--primary-dark);
+  
+}
+.part-item ul li a{
+ 
+  color: var(--primary-dark);
+  
+}
+.part-item ul li a:hover{
+ 
+  font-weight: 600;
+  
+}
+
+.part-header{
+  margin: 2rem 0;
+ 
+}
+.part-header h1{
+ font-size: 3rem;
+ 
+}

@@ -1,0 +1,245 @@
+
+/*
+.hdr_section {
+
+    padding: 5px 0;
+    padding-bottom: 0;
+    background-color: #0277bd;
+    box-shadow: 0 4px 4px 0 #ddd;
+    height: 18vh;
+
+}
+
+.hdr_section1 {
+
+    padding: 5px 0;
+    padding-bottom: 0;
+    background: rgb(2, 136, 209);
+    box-shadow: 0 4px 4px 0 #ddd;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+
+.navbar-m__navbar-list__Mnm-x {
+    --content-color: var(--black);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    color: #fff ;
+
+}
+
+.menu_bottom1 {
+    color: #fff;
+	float:right;
+
+}
+.center-n{
+    justify-content: center;
+}
+
+.end{
+
+}
+
+*/
+/* Tablet Layout: 768px. */
+
+.hdr_section {
+
+    background-color:#0277bd;
+
+}
+.header-optimize{
+    height: 16vh;
+
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    grid-template-areas: "logo search notification";
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.lang-optimize{
+
+    justify-content: end;
+    text-align: end;
+
+}
+.hdr_section1 {
+
+    background-color:#0277bd;
+    padding-bottom: 0;
+    background: rgb(2, 136, 209);
+    box-shadow: 0 4px 4px 0 #ddd;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-bottom: .1rem #222;
+}
+.navbar-m__navbar-list__Mnm-x {
+    --content-color: var(--black);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    color: #fff ;
+
+}
+.version a {
+    color:#fff
+    }
+    .lang-optimize ul li{
+        padding:1rem;
+        font-size: 1.8rem;
+        margin-top:.3rem;
+    }
+
+    .map_inner {
+        background: #e6e6fa;
+        padding: 15px;
+        overflow: hidden;
+    }
+
+
+    .dropdown-content1 {
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        min-width: 260px;
+        box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+        z-index: 1;
+        border-radius: 0 5% 5% 5%;
+    }
+    .dropdown-content1 a:hover{
+        background-color: #eee;
+        border-radius: 0 10% 5% 5%;
+
+    }
+    .prayerTimeTable {
+        background: url(https://www.jugantor.com/web-assets/img/prayertimebg3.png) no-repeat;
+        padding: 0 0 0 130px;
+    }
+
+    .prayerName {
+        background: #6b8e23;
+        text-align: center;
+        color: #fff;
+        font-size: 16px;
+
+        padding: 2px 3px;
+    }
+
+    .prayerTime {
+        background: olive;
+        text-align: center;
+        color: #fff;
+        font-size: 16px;
+
+        padding: 2px 3px;
+    }
+
+    .heading-03 {
+        font-size: 15px;
+        line-height: 20px;
+        padding: 1rem;
+    }
+    .nonPrayTime {
+        margin: 5px 0 0;
+        padding: 2px;
+        text-align: center;
+        line-height: 23px;
+        background: #455960;
+    }
+    .table {
+        width: 100%;
+        max-width: 100%;
+         margin-bottom: 0;
+    }
+    .sunset {
+        font-size: 16px;
+        color: #fff;
+        display: inline-block;
+    }
+    .sunrise {
+        font-size: 16px;
+        color: #fff;
+        display: inline-block;
+        padding: 0 30px 0 0;
+    }
+    .dateShow {
+        background: #fff;
+        display: block;
+        font-size: 16px;
+        font-weight: 400;
+        color: #026dbd;
+        text-align: right;
+        padding: 2px 0;
+    }
+
+    .cetagory-title-03 {
+
+        background-image: url(https://www.jugantor.com/web-assets/img/right-poll-bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+    .dropbtn-02 {
+        background-color: transparent;
+        font-size: 16px;
+        border: none;
+    }
+.search-icon i{
+    background-color:#0084FF;
+    color:#fff;
+}
+.dropdown-content1 a {
+    color: black;
+    padding: 38px 14px;
+    text-decoration: none;
+    display: block;
+
+    text-decoration: none;
+    text-align: start;
+}
+
+
+
+
+.news-title-02 {
+
+    padding: 0px 0;
+}
+
+
+@media only screen and (max-width: 768px){
+    .hdr_section1 {
+
+       display:none;
+
+    }
+    .time-display{
+        display:none;
+
+    }
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px){
+    .category-display {
+
+       display:none;
+
+
+
+    }
+
+
+}
